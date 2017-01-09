@@ -1,4 +1,14 @@
+
+/* = Paths */
+$images-url: '/assets/img/';
+
+/* = Colors */
+$action-color: #2AA82E;
+$text-color: #333;
+
 /* Custom Bootstrap Theme for Enrichmond.com */
+
+
 
 body {
   font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -6,4 +16,34 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: "Crete Round", serif;
+}
+
+
+.navbar {
+	border: none;
+	box-shadow: none;
+	background-image: none;
+	border-radius: 0;
+	li {
+		text-transform: uppercase;
+	}
+}
+
+.navbar-default .navbar-nav>.active>a {
+	color: $action-color;
+	box-shadow: none;
+	background: none;
+	&:hover,
+	&:focus {
+		color:$text-color;
+	}	
+}
+.navbar-brand {
+	margin: 10px;
+	display: block;
+	height: 32px;
+	width: 245px;
+	text-indent: -999em;
+	background: transparent url($images-url + 'logo.png') no-repeat top left;
+	background-size: 100% auto;
 }
