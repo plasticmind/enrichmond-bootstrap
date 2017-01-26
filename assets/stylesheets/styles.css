@@ -1,9 +1,0 @@
-/* Bootstrap */
-@import "enrichmond-variables"
-@import "bootstrap"
-@import "bootstrap-select.min.css"
-@import "bootstrap-toggle.min.css"
-@import "enrichmond-bootstrap"
-
-/* Icon fonts */
-@import "../fonts/font-awesome-4.6.3/scss/font-awesome";

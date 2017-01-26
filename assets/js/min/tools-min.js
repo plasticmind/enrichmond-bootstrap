@@ -1,0 +1,1 @@
+$(function(){$(".btn-search").click(function(c){c.preventDefault(),$(".form-search").toggle()})});

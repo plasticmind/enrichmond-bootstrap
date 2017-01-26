@@ -1,1 +1,0 @@
-$(function(){$(".template-chooser select").on("change",function(){var n=$(this).val();return n&&(window.location=n),!1})});
