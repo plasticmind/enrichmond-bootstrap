@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(function () {
 
   $('[data-toggle="collapse-all"]').click(function(){
@@ -50,11 +49,6 @@ $(function () {
     e.preventDefault();
   });
 
-
-});
-=======
-$(function(){
-
   // REMOVE ME: Template chooser
 
   $('.template-chooser select').on('change', function () {
@@ -65,6 +59,4 @@ $(function(){
       return false;
   });
 
-
 });
->>>>>>> origin/master

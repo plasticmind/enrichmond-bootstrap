@@ -5,6 +5,7 @@
 		[
 			[
 <<<<<<< HEAD
+<<<<<<< HEAD
 				"border-",
 				"border-color"
 			],
@@ -15,6 +16,8 @@
 			[
 				"back",
 =======
+=======
+>>>>>>> origin/master
 				"background",
 				"background-color"
 			],
@@ -96,11 +99,15 @@
 			],
 			[
 				"bacgk",
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 				"background-color"
 			],
 			[
 				"backgroun",
+<<<<<<< HEAD
 <<<<<<< HEAD
 				"background-image"
 			],
@@ -108,6 +115,8 @@
 				"text",
 				"text-color"
 =======
+=======
+>>>>>>> origin/master
 				"background-color"
 			],
 			[
@@ -209,6 +218,9 @@
 			[
 				"wind",
 				"window_top"
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 			]
 		]
@@ -360,6 +372,9 @@
 	"find":
 	{
 		"height": 30.0
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	},
 	"find_in_files":
@@ -382,6 +397,7 @@
 		"find_history":
 		[
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"cpj--",
 			"item-dropdown",
 			"support cpj",
@@ -390,6 +406,8 @@
 			"awesome",
 			";\n"
 =======
+=======
+>>>>>>> origin/master
 			"search",
 			"nth-chil",
 			"ad-con",
@@ -469,6 +487,9 @@
 			"blockquote",
 			"echo",
 			"venti"
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 		],
 		"highlight": true,
@@ -478,14 +499,20 @@
 		"replace_history":
 		[
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"enr--",
 			"dropdown"
 =======
+=======
+>>>>>>> origin/master
 			"FunCycled on",
 			"/funcycled",
 			"src=\"http://www.simplyrecipes.com/wp-content/uploads/",
 			"img src=\"http://www.",
 			"local.simplyrecipes.com"
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 		],
 		"reverse": false,
