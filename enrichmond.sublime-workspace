@@ -3,45 +3,218 @@
 	{
 		"selected_items":
 		[
+			[
+<<<<<<< HEAD
+				"border-",
+				"border-color"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+=======
+				"background",
+				"background-color"
+			],
+			[
+				"container",
+				"container-fluid"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"templ",
+				"template-selector"
+			],
+			[
+				"nav",
+				"navbar-default"
+			],
+			[
+				"page",
+				"page_slug"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"product",
+				"product-cats"
+			],
+			[
+				"light",
+				"light-gray"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"additiona",
+				"additional_information"
+			],
+			[
+				"font-",
+				"font-serif"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"theme",
+				"theme_uri"
+			],
+			[
+				"wp_",
+				"wp_enqueue_scripts"
+			],
+			[
+				"margion",
+				"margin-top"
+			],
+			[
+				"pm-",
+				"pm-light-gray"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"bacgk",
+>>>>>>> origin/master
+				"background-color"
+			],
+			[
+				"backgroun",
+<<<<<<< HEAD
+				"background-image"
+			],
+			[
+				"text",
+				"text-color"
+=======
+				"background-color"
+			],
+			[
+				"site",
+				"site-search"
+			],
+			[
+				"exp",
+				"expanded"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"search",
+				"search_query"
+			],
+			[
+				"ad",
+				"ad_counter"
+			],
+			[
+				"fixe",
+				"fixed_widget_options"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"wel",
+				"welcome-image"
+			],
+			[
+				"welcom",
+				"welcome-widget"
+			],
+			[
+				"siebar",
+				"sidebar-right"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"pinteres",
+				"pinterest_description"
+			],
+			[
+				"pinterest",
+				"pinterest_image"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
+				"pint",
+				"pinterest_image"
+			],
+			[
+				"pintere",
+				"pinterest-pin"
+			],
+			[
+				"sticky",
+				"sticky_div"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"div",
+				"div_height"
+			],
+			[
+				"stick",
+				"sticky_anchor"
+			],
+			[
+				"sticy",
+				"sticky_div"
+			],
+			[
+				"window",
+				"window_top"
+			],
+			[
+				"wind",
+				"window_top"
+>>>>>>> origin/master
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\n    <title>Enrichmond.com - Sample Post</title>\n\n    <!-- Bootstrap Core CSS -->\n    <link href=\"/assets/vendor/bootstrap/css/bootstrap.min.css\" rel=\"stylesheet\">\n\n    <!-- Theme CSS -->\n    <link href=\"/assets/css/style.css\" rel=\"stylesheet\">\n\n    <!-- Custom Fonts -->\n    <link href=\"/assets/vendor/font-awesome/css/font-awesome.min.css\" rel=\"stylesheet\" type=\"text/css\">\n    <link href=\"https://fonts.googleapis.com/css?family=Crete+Round\" rel=\"stylesheet\">\n    <link href=\"https://fonts.googleapis.com/css?family=Lato\" rel=\"stylesheet\">\n\n    <!--[if lt IE 9]>\n        <script src=\"https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js\"></script>\n        <script src=\"https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n\n</head>\n\n<body>\n\n    <!-- Navigation -->\n    <nav class=\"navbar navbar-default navbar-custom navbar-fixed-top\">\n        <div class=\"container-fluid\">\n            <!-- Brand and toggle get grouped for better mobile display -->\n            <div class=\"navbar-header page-scroll\">\n                <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\">\n                    <span class=\"sr-only\">Toggle navigation</span>\n                    Menu <i class=\"fa fa-bars\"></i>\n                </button>\n                <a class=\"navbar-brand\" href=\"index.html\">Start Bootstrap</a>\n            </div>\n\n            <!-- Collect the nav links, forms, and other content for toggling -->\n            <div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n                <ul class=\"nav navbar-nav navbar-right\">\n                    <li>\n                        <a href=\"index.html\">Home</a>\n                    </li>\n                    <li>\n                        <a href=\"about.html\">About</a>\n                    </li>\n                    <li>\n                        <a href=\"post.html\">Sample Post</a>\n                    </li>\n                    <li>\n                        <a href=\"contact.html\">Contact</a>\n                    </li>\n                </ul>\n            </div>\n            <!-- /.navbar-collapse -->\n        </div>\n        <!-- /.container -->\n    </nav>\n\n    <!-- Page Header -->\n    <!-- Set your background image for this header on the line below. -->\n    <header class=\"intro-header\" style=\"background-image: url('/assets/img/post-bg.jpg')\">\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n                    <div class=\"post-heading\">\n                        <h1>Man must explore, and this is exploration at its greatest</h1>\n                        <h2 class=\"subheading\">Problems look mighty small from 150 miles up</h2>\n                        <span class=\"meta\">Posted by <a href=\"#\">Start Bootstrap</a> on August 24, 2014</span>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </header>\n\n    <!-- Post Content -->\n    <article>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n                    <p>Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman's earth, if free men make it, will be truly round: a globe in practice, not in theory.</p>\n\n                    <p>Science cuts two ways, of course; its products can be used for both good and evil. But there's no turning back from science. The early warnings about technological dangers also come from science.</p>\n\n                    <p>What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.</p>\n\n                    <p>A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That's how I felt seeing the Earth for the first time. I could not help but love and cherish her.</p>\n\n                    <p>For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.</p>\n\n                    <h2 class=\"section-heading\">The Final Frontier</h2>\n\n                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>\n\n                    <p>There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.</p>\n\n                    <blockquote>The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.</blockquote>\n\n                    <p>Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.</p>\n\n                    <h2 class=\"section-heading\">Reaching for the Stars</h2>\n\n                    <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>\n\n                    <a href=\"#\">\n                        <img class=\"img-responsive\" src=\"img/post-sample-image.jpg\" alt=\"\">\n                    </a>\n                    <span class=\"caption text-muted\">To go places and do things that have never been done before – that’s what living is all about.</span>\n\n                    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>\n\n                    <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>\n\n                    <p>Placeholder text by <a href=\"http://spaceipsum.com/\">Space Ipsum</a>. Photographs by <a href=\"https://www.flickr.com/photos/nasacommons/\">NASA on The Commons</a>.</p>\n                </div>\n            </div>\n        </div>\n    </article>\n\n    <hr>\n\n    <!-- Footer -->\n    <footer>\n        <div class=\"container\">\n            <div class=\"row\">\n                <div class=\"col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1\">\n                    <ul class=\"list-inline text-center\">\n                        <li>\n                            <a href=\"#\">\n                                <span class=\"fa-stack fa-lg\">\n                                    <i class=\"fa fa-circle fa-stack-2x\"></i>\n                                    <i class=\"fa fa-twitter fa-stack-1x fa-inverse\"></i>\n                                </span>\n                            </a>\n                        </li>\n                        <li>\n                            <a href=\"#\">\n                                <span class=\"fa-stack fa-lg\">\n                                    <i class=\"fa fa-circle fa-stack-2x\"></i>\n                                    <i class=\"fa fa-facebook fa-stack-1x fa-inverse\"></i>\n                                </span>\n                            </a>\n                        </li>\n                        <li>\n                            <a href=\"#\">\n                                <span class=\"fa-stack fa-lg\">\n                                    <i class=\"fa fa-circle fa-stack-2x\"></i>\n                                    <i class=\"fa fa-github fa-stack-1x fa-inverse\"></i>\n                                </span>\n                            </a>\n                        </li>\n                    </ul>\n                    <p class=\"copyright text-muted\">Copyright &copy; Enrichmond.com</p>\n                </div>\n            </div>\n        </div>\n    </footer>\n\n    <!-- jQuery -->\n    <script src=\"/assets/vendor/jquery/jquery.min.js\"></script>\n\n    <!-- Bootstrap Core JavaScript -->\n    <script src=\"/assets/vendor/bootstrap/js/bootstrap.min.js\"></script>\n\n    <!-- Contact Form JavaScript -->\n    <script src=\"/assets/js/jqBootstrapValidation.js\"></script>\n    <script src=\"/assets/js/contact_me.js\"></script>\n\n    <!-- Theme JavaScript -->\n    <script src=\"/assets/js/tools.min.js\"></script>\n\n</body>\n\n</html>\n",
-			"file": "post.php",
-			"file_size": 9336,
-			"file_write_time": 131284516110000000,
-			"settings":
-			{
-				"buffer_size": 9320,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "body {\n  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 20px;\n  color: #333333;\n}\np {\n  line-height: 1.5;\n  margin: 30px 0;\n}\np a {\n  text-decoration: underline;\n}\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n    font-family: 'Crete Round', 'Times New Roman', serif;\n\n  font-weight: normal;\n}\na {\n  color: #333333;\n}\na:hover,\na:focus {\n  color: #0085A1;\n}\na img:hover,\na img:focus {\n  cursor: zoom-in;\n}\nblockquote {\n  color: #777777;\n  font-style: italic;\n}\nhr.small {\n  max-width: 100px;\n  margin: 15px auto;\n  border-width: 4px;\n  border-color: white;\n}\n.navbar-custom {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  z-index: 3;\n  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n}\n.navbar-custom .navbar-brand {\n  font-weight: 800;\n}\n.navbar-custom .navbar-header .navbar-toggle {\n  color: #777777;\n  font-weight: 800;\n  text-transform: uppercase;\n  font-size: 12px;\n}\n.navbar-custom .nav li a {\n  text-transform: uppercase;\n  font-size: 12px;\n  font-weight: 800;\n  letter-spacing: 1px;\n}\n@media only screen and (min-width: 768px) {\n  .navbar-custom {\n    background: transparent;\n    border-bottom: 1px solid transparent;\n  }\n  .navbar-custom .navbar-brand {\n    color: white;\n    padding: 20px;\n  }\n  .navbar-custom .navbar-brand:hover,\n  .navbar-custom .navbar-brand:focus {\n    color: rgba(255, 255, 255, 0.8);\n  }\n  .navbar-custom .nav li a {\n    color: white;\n    padding: 20px;\n  }\n  .navbar-custom .nav li a:hover,\n  .navbar-custom .nav li a:focus {\n    color: rgba(255, 255, 255, 0.8);\n  }\n}\n@media only screen and (min-width: 1170px) {\n  .navbar-custom {\n    -webkit-transition: background-color 0.3s;\n    -moz-transition: background-color 0.3s;\n    transition: background-color 0.3s;\n    /* Force Hardware Acceleration in WebKit */\n    -webkit-transform: translate3d(0, 0, 0);\n    -moz-transform: translate3d(0, 0, 0);\n    -ms-transform: translate3d(0, 0, 0);\n    -o-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0);\n    -webkit-backface-visibility: hidden;\n    backface-visibility: hidden;\n  }\n  .navbar-custom.is-fixed {\n    /* when the user scrolls down, we hide the header right above the viewport */\n    position: fixed;\n    top: -61px;\n    background-color: rgba(255, 255, 255, 0.9);\n    border-bottom: 1px solid #f2f2f2;\n    -webkit-transition: -webkit-transform 0.3s;\n    -moz-transition: -moz-transform 0.3s;\n    transition: transform 0.3s;\n  }\n  .navbar-custom.is-fixed .navbar-brand {\n    color: #333333;\n  }\n  .navbar-custom.is-fixed .navbar-brand:hover,\n  .navbar-custom.is-fixed .navbar-brand:focus {\n    color: #0085A1;\n  }\n  .navbar-custom.is-fixed .nav li a {\n    color: #333333;\n  }\n  .navbar-custom.is-fixed .nav li a:hover,\n  .navbar-custom.is-fixed .nav li a:focus {\n    color: #0085A1;\n  }\n  .navbar-custom.is-visible {\n    /* if the user changes the scrolling direction, we show the header */\n    -webkit-transform: translate3d(0, 100%, 0);\n    -moz-transform: translate3d(0, 100%, 0);\n    -ms-transform: translate3d(0, 100%, 0);\n    -o-transform: translate3d(0, 100%, 0);\n    transform: translate3d(0, 100%, 0);\n  }\n}\n.intro-header {\n  background-color: #777777;\n  background: no-repeat center center;\n  background-attachment: scroll;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  background-size: cover;\n  -o-background-size: cover;\n  margin-bottom: 50px;\n}\n.intro-header .site-heading,\n.intro-header .post-heading,\n.intro-header .page-heading {\n  padding: 100px 0 50px;\n  color: white;\n}\n@media only screen and (min-width: 768px) {\n  .intro-header .site-heading,\n  .intro-header .post-heading,\n  .intro-header .page-heading {\n    padding: 150px 0;\n  }\n}\n.intro-header .site-heading,\n.intro-header .page-heading {\n  text-align: center;\n}\n.intro-header .site-heading h1,\n.intro-header .page-heading h1 {\n  margin-top: 0;\n  font-size: 50px;\n}\n.intro-header .site-heading .subheading,\n.intro-header .page-heading .subheading {\n  font-size: 24px;\n  line-height: 1.1;\n  display: block;\n  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-weight: 300;\n  margin: 10px 0 0;\n}\n@media only screen and (min-width: 768px) {\n  .intro-header .site-heading h1,\n  .intro-header .page-heading h1 {\n    font-size: 80px;\n  }\n}\n.intro-header .post-heading h1 {\n  font-size: 35px;\n}\n.intro-header .post-heading .subheading,\n.intro-header .post-heading .meta {\n  line-height: 1.1;\n  display: block;\n}\n.intro-header .post-heading .subheading {\n  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  font-size: 24px;\n  margin: 10px 0 30px;\n  font-weight: 600;\n}\n.intro-header .post-heading .meta {\n  font-family: 'Lora', 'Times New Roman', serif;\n  font-style: italic;\n  font-weight: 300;\n  font-size: 20px;\n}\n.intro-header .post-heading .meta a {\n  color: white;\n}\n@media only screen and (min-width: 768px) {\n  .intro-header .post-heading h1 {\n    font-size: 55px;\n  }\n  .intro-header .post-heading .subheading {\n    font-size: 30px;\n  }\n}\n.post-preview > a {\n  color: #333333;\n}\n.post-preview > a:hover,\n.post-preview > a:focus {\n  text-decoration: none;\n  color: #0085A1;\n}\n.post-preview > a > .post-title {\n  font-size: 30px;\n  margin-top: 30px;\n  margin-bottom: 10px;\n}\n.post-preview > a > .post-subtitle {\n  margin: 0;\n  font-weight: 300;\n  margin-bottom: 10px;\n}\n.post-preview > .post-meta {\n  color: #777777;\n  font-size: 18px;\n  font-style: italic;\n  margin-top: 0;\n}\n.post-preview > .post-meta > a {\n  text-decoration: none;\n  color: #333333;\n}\n.post-preview > .post-meta > a:hover,\n.post-preview > .post-meta > a:focus {\n  color: #0085A1;\n  text-decoration: underline;\n}\n@media only screen and (min-width: 768px) {\n  .post-preview > a > .post-title {\n    font-size: 36px;\n  }\n}\n.section-heading {\n  font-size: 36px;\n  margin-top: 60px;\n  font-weight: 700;\n}\n.caption {\n  text-align: center;\n  font-size: 14px;\n  padding: 10px;\n  font-style: italic;\n  margin: 0;\n  display: block;\n  border-bottom-right-radius: 5px;\n  border-bottom-left-radius: 5px;\n}\nfooter {\n  padding: 50px 0 65px;\n}\nfooter .list-inline {\n  margin: 0;\n  padding: 0;\n}\nfooter .copyright {\n  font-size: 14px;\n  text-align: center;\n  margin-bottom: 0;\n}\n.floating-label-form-group {\n  font-size: 14px;\n  position: relative;\n  margin-bottom: 0;\n  padding-bottom: 0.5em;\n  border-bottom: 1px solid #eeeeee;\n}\n.floating-label-form-group input,\n.floating-label-form-group textarea {\n  z-index: 1;\n  position: relative;\n  padding-right: 0;\n  padding-left: 0;\n  border: none;\n  border-radius: 0;\n  font-size: 1.5em;\n  background: none;\n  box-shadow: none !important;\n  resize: none;\n}\n.floating-label-form-group label {\n  display: block;\n  z-index: 0;\n  position: relative;\n  top: 2em;\n  margin: 0;\n  font-size: 0.85em;\n  line-height: 1.764705882em;\n  vertical-align: middle;\n  vertical-align: baseline;\n  opacity: 0;\n  -webkit-transition: top 0.3s ease,opacity 0.3s ease;\n  -moz-transition: top 0.3s ease,opacity 0.3s ease;\n  -ms-transition: top 0.3s ease,opacity 0.3s ease;\n  transition: top 0.3s ease,opacity 0.3s ease;\n}\n.floating-label-form-group::not(:first-child) {\n  padding-left: 14px;\n  border-left: 1px solid #eeeeee;\n}\n.floating-label-form-group-with-value label {\n  top: 0;\n  opacity: 1;\n}\n.floating-label-form-group-with-focus label {\n  color: #0085A1;\n}\nform .row:first-child .floating-label-form-group {\n  border-top: 1px solid #eeeeee;\n}\n.btn {\n  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase;\n  font-size: 14px;\n  font-weight: 800;\n  letter-spacing: 1px;\n  border-radius: 0;\n  padding: 15px 25px;\n}\n.btn-lg {\n  font-size: 16px;\n  padding: 25px 35px;\n}\n.btn-default:hover,\n.btn-default:focus {\n  background-color: #0085A1;\n  border: 1px solid #0085A1;\n  color: white;\n}\n.pager {\n  margin: 20px 0 0;\n}\n.pager li > a,\n.pager li > span {\n  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase;\n  font-size: 14px;\n  font-weight: 800;\n  letter-spacing: 1px;\n  padding: 15px 25px;\n  background-color: white;\n  border-radius: 0;\n}\n.pager li > a:hover,\n.pager li > a:focus {\n  color: white;\n  background-color: #0085A1;\n  border: 1px solid #0085A1;\n}\n.pager .disabled > a,\n.pager .disabled > a:hover,\n.pager .disabled > a:focus,\n.pager .disabled > span {\n  color: #777777;\n  background-color: #333333;\n  cursor: not-allowed;\n}\n::-moz-selection {\n  color: white;\n  text-shadow: none;\n  background: #0085A1;\n}\n::selection {\n  color: white;\n  text-shadow: none;\n  background: #0085A1;\n}\nimg::selection {\n  color: white;\n  background: transparent;\n}\nimg::-moz-selection {\n  color: white;\n  background: transparent;\n}\nbody {\n  -webkit-tap-highlight-color: #0085A1;\n}\n",
-			"file": "assets/css/style.css",
-			"file_size": 8712,
-			"file_write_time": 131284516110000000,
-			"settings":
-			{
-				"buffer_size": 8712,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "/*!\n * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)\n * Copyright 2013-2016 Start Bootstrap\n * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)\n */a,body{color:#333}.navbar-custom .nav li a,.navbar-custom .navbar-brand,h1,h2,h3,h4,h5,h6{font-weight:800}.caption,.intro-header .page-heading,.intro-header .site-heading,footer .copyright{text-align:center}body{font-family:Lora,'Times New Roman',serif;font-size:20px;-webkit-tap-highlight-color:#0085A1}.intro-header .page-heading .subheading,.intro-header .post-heading .subheading,.intro-header .site-heading .subheading,.navbar-custom,h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif}p{line-height:1.5;margin:30px 0}p a{text-decoration:underline}a:focus,a:hover{color:#0085A1}a img:focus,a img:hover{cursor:zoom-in}blockquote{color:#777;font-style:italic}hr.small{max-width:100px;margin:15px auto;border-width:4px;border-color:#fff}.navbar-custom{position:absolute;top:0;left:0;width:100%;z-index:3}.navbar-custom .navbar-header .navbar-toggle{color:#777;font-weight:800;text-transform:uppercase;font-size:12px}.navbar-custom .nav li a{text-transform:uppercase;font-size:12px;letter-spacing:1px}@media only screen and (min-width:768px){.navbar-custom{background:0 0;border-bottom:1px solid transparent}.navbar-custom .navbar-brand{color:#fff;padding:20px}.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover{color:rgba(255,255,255,.8)}.navbar-custom .nav li a{color:#fff;padding:20px}.navbar-custom .nav li a:focus,.navbar-custom .nav li a:hover{color:rgba(255,255,255,.8)}}@media only screen and (min-width:1170px){.navbar-custom{-webkit-transition:background-color .3s;-moz-transition:background-color .3s;transition:background-color .3s;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0);-webkit-backface-visibility:hidden;backface-visibility:hidden}.navbar-custom.is-fixed{position:fixed;top:-61px;background-color:rgba(255,255,255,.9);border-bottom:1px solid #f2f2f2;-webkit-transition:-webkit-transform .3s;-moz-transition:-moz-transform .3s;transition:transform .3s}.navbar-custom.is-fixed .navbar-brand{color:#333}.navbar-custom.is-fixed .navbar-brand:focus,.navbar-custom.is-fixed .navbar-brand:hover{color:#0085A1}.navbar-custom.is-fixed .nav li a{color:#333}.navbar-custom.is-fixed .nav li a:focus,.navbar-custom.is-fixed .nav li a:hover{color:#0085A1}.navbar-custom.is-visible{-webkit-transform:translate3d(0,100%,0);-moz-transform:translate3d(0,100%,0);-ms-transform:translate3d(0,100%,0);-o-transform:translate3d(0,100%,0);transform:translate3d(0,100%,0)}}.intro-header{background:center center no-repeat;-webkit-background-size:cover;-moz-background-size:cover;background-size:cover;-o-background-size:cover;margin-bottom:50px}.intro-header .page-heading,.intro-header .post-heading,.intro-header .site-heading{padding:100px 0 50px;color:#fff}.intro-header .page-heading h1,.intro-header .site-heading h1{margin-top:0;font-size:50px}.intro-header .page-heading .subheading,.intro-header .site-heading .subheading{font-size:24px;line-height:1.1;display:block;font-weight:300;margin:10px 0 0}@media only screen and (min-width:768px){.intro-header .page-heading,.intro-header .post-heading,.intro-header .site-heading{padding:150px 0}.intro-header .page-heading h1,.intro-header .site-heading h1{font-size:80px}}.intro-header .post-heading h1{font-size:35px}.intro-header .post-heading .meta,.intro-header .post-heading .subheading{line-height:1.1;display:block}.intro-header .post-heading .subheading{font-size:24px;margin:10px 0 30px;font-weight:600}.intro-header .post-heading .meta{font-family:Lora,'Times New Roman',serif;font-style:italic;font-weight:300;font-size:20px}.intro-header .post-heading .meta a{color:#fff}@media only screen and (min-width:768px){.intro-header .post-heading h1{font-size:55px}.intro-header .post-heading .subheading{font-size:30px}}.post-preview>a{color:#333}.post-preview>a:focus,.post-preview>a:hover{text-decoration:none;color:#0085A1}.post-preview>a>.post-title{font-size:30px;margin-top:30px;margin-bottom:10px}.post-preview>a>.post-subtitle{margin:0 0 10px;font-weight:300}.post-preview>.post-meta{color:#777;font-size:18px;font-style:italic;margin-top:0}.post-preview>.post-meta>a{text-decoration:none;color:#333}.post-preview>.post-meta>a:focus,.post-preview>.post-meta>a:hover{color:#0085A1;text-decoration:underline}@media only screen and (min-width:768px){.post-preview>a>.post-title{font-size:36px}}.section-heading{font-size:36px;margin-top:60px;font-weight:700}.btn,.pager li>a,.pager li>span{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:800;letter-spacing:1px}.caption{font-size:14px;padding:10px;font-style:italic;margin:0;display:block;border-bottom-right-radius:5px;border-bottom-left-radius:5px}footer{padding:50px 0 65px}footer .list-inline{margin:0;padding:0}footer .copyright{font-size:14px;margin-bottom:0}.floating-label-form-group{font-size:14px;position:relative;margin-bottom:0;padding-bottom:.5em;border-bottom:1px solid #eee}.floating-label-form-group input,.floating-label-form-group textarea{z-index:1;position:relative;padding-right:0;padding-left:0;border:none;border-radius:0;font-size:1.5em;background:0 0;box-shadow:none!important;resize:none}.floating-label-form-group label{display:block;z-index:0;position:relative;top:2em;margin:0;font-size:.85em;line-height:1.764705882em;vertical-align:middle;vertical-align:baseline;opacity:0;-webkit-transition:top .3s ease,opacity .3s ease;-moz-transition:top .3s ease,opacity .3s ease;-ms-transition:top .3s ease,opacity .3s ease;transition:top .3s ease,opacity .3s ease}.floating-label-form-group::not(:first-child){padding-left:14px;border-left:1px solid #eee}.floating-label-form-group-with-value label{top:0;opacity:1}.floating-label-form-group-with-focus label{color:#0085A1}form .row:first-child .floating-label-form-group{border-top:1px solid #eee}.btn{font-size:14px;border-radius:0;padding:15px 25px}.btn-lg{font-size:16px;padding:25px 35px}.btn-default:focus,.btn-default:hover{background-color:#0085A1;border:1px solid #0085A1;color:#fff}.pager{margin:20px 0 0}.pager li>a,.pager li>span{font-size:14px;padding:15px 25px;background-color:#fff;border-radius:0}.pager li>a:focus,.pager li>a:hover{color:#fff;background-color:#0085A1;border:1px solid #0085A1}.pager .disabled>a,.pager .disabled>a:focus,.pager .disabled>a:hover,.pager .disabled>span{color:#777;background-color:#333;cursor:not-allowed}::-moz-selection{color:#fff;text-shadow:none;background:#0085A1}::selection{color:#fff;text-shadow:none;background:#0085A1}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}",
-			"file": "assets/css/style.min.css",
-			"file_size": 6919,
-			"file_write_time": 131284516110000000,
-			"settings":
-			{
-				"buffer_size": 6919,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -50,27 +223,23 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "install",
+		"height": 67.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
-				"install",
+				"Package Control: in",
 				"Package Control: Install Package"
-			],
-			[
-				"bro",
-				"Preferences: Browse Packages"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 126.0,
+		"height": 167.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -82,24 +251,129 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/plasticmind/Sites/clients/enrichmond.com/www",
-		"/Users/plasticmind/Sites/clients/enrichmond.com/www/assets",
-		"/Users/plasticmind/Sites/clients/enrichmond.com/www/assets/css"
-	],
+<<<<<<< HEAD
 	"file_history":
 	[
+		"/Users/plasticmind/Desktop/Enrichmond Templates/assets/js/cpj.js",
+		"/Users/plasticmind/Sites/clients/cpj.org/templates/wells/MovableType/System Overview/Header.new.html",
+		"/Users/plasticmind/Sites/clients/cpj.org/templates/wells/MovableType/Global Templates/Site Nav.old.html",
+		"/Users/plasticmind/Sites/clients/cpj.org/templates/wells/MovableType/Global Templates/Site Nav.new.html",
+		"/Users/plasticmind/Dropbox/Documents/Notes/wxr-ifcnews.xml",
+		"/Users/plasticmind/Sites/clients/enrichmond.com/www/index.php",
+		"/Users/plasticmind/Sites/clients/enrichmond.com/www/assets/scss/theme-enrichmond.scss"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 29.0
+=======
+	"expanded_folders":
+	[
+		"/Users/plasticmind/Sites/clients/enrichmond/www",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets/js",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets/scss",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/inc"
+	],
+	"file_history":
+	[
+		"/Users/plasticmind/Sites/clients/enrichmond/www/.gitignore",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/index.php",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/patterns.php",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/inc/header.php",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets/js/enrichmond.js",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/inc/footer.php",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets/scss/theme-enrichmond.scss",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/assets/js/bootstrap.min.js",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/content-search.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/content-card.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/yarpp-template-single.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/functions.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/home.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/lib/bootstrap-3.3.6/less/variables.less",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/less/theme.less",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/js/main.js",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/content.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/footer.php",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic/lib/yarpp-template-single.php",
+		"/Users/plasticmind/Sites/clients/enrichmond/www/theme-enrichmond.scss",
+		"/Users/plasticmind/Sites/clients/challies.com/www/wp-config.php",
+		"/Users/plasticmind/Library/Caches/Cleanup At Startup/Transmit/7EB16384-E2BE-41B1-87A9-31ACB798D8E0/style.css",
+		"/Users/plasticmind/Sites/family/funcycled.com/wp-content/themes/funcycled/lib/widgets.php",
+		"/Users/plasticmind/Sites/family/funcycled.com/wp-content/themes/funcycled/summary.php",
+		"/Users/plasticmind/Sites/family/funcycled.com/wp-content/themes/funcycled/loop.php",
+		"/Users/plasticmind/Sites/family/funcycled.com/wp-content/themes/funcycled/archive.php",
+		"/Users/plasticmind/Desktop/id_rsa.pub",
+		"/Users/plasticmind/Sites/family/funcycled.com/wp-content/themes/funcycled/.gitignore",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/assets/sass/style.scss",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/page-home.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/partials/content-summary.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/plugins/rest-test/rest-test.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/lib/post-rating.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/assets/sass/_images.scss",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/single.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/functions.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/lib/tweaks.php",
+		"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa/header.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/tools-mobile.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/summary.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/search.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/template-tags.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/search.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/tweaks.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/responsive.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/mobile/search.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/ads.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/mobile/single.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/entry-display.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/content.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/scripts.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/labs/defer/index.html",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/tools.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/sidebar.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/images.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/vendor/jquery.fixed-widget.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/plugins-desktop.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/vendor/jquery.fixedwidget.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/widgets.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/structure.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-config.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/ad.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/footer.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/meta-boxes.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/_variables.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/admin.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/config.rb",
+		"/Users/plasticmind/Sites/all.simplyrecipes/labs/fully-responsive/index.html",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib/yarpp-template-single.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/mobile/header.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/style.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/config.codekit",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/_images.scss",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/plugins-mobile.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/footer.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/page.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/plugins-shared.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/js/vendor/jquery.infinitescroll.min.js",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/test.php",
+		"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss/print-media.scss"
+	],
+	"find":
+	{
+		"height": 30.0
+>>>>>>> origin/master
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 102.0,
 		"where_history":
 		[
+			"/Users/plasticmind/Sites/clients/challies.com/www/wp-content/themes/challies-bs-basic",
+			"/Users/plasticmind/Sites/alex/pm/public_html/wp-content/themes/ankaa",
+			"",
+			"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss",
+			"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/lib",
+			"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply",
+			"/Users/plasticmind/Sites/all.simplyrecipes/public_html/wp-content/themes/simply/assets/scss"
 		]
 	},
 	"find_state":
@@ -107,6 +381,95 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+<<<<<<< HEAD
+			"cpj--",
+			"item-dropdown",
+			"support cpj",
+			"Support CPJ",
+			"#f00",
+			"awesome",
+			";\n"
+=======
+			"search",
+			"nth-chil",
+			"ad-con",
+			"main-co",
+			".card",
+			"card",
+			"visible-xs",
+			".ad-cont",
+			"sub",
+			"hash",
+			"h4",
+			"entry-con",
+			"you may also like",
+			"you might also",
+			"font-family",
+			"enqu",
+			"hero-",
+			"hero",
+			"hero-action",
+			"Simply Recipes on",
+			"/simplyrecipes",
+			"title",
+			"h1",
+			"comments",
+			"comment",
+			".home",
+			";\n",
+			"field",
+			";\n",
+			"byline",
+			".home",
+			"nav-toggle",
+			".expanded",
+			".expanded #brand",
+			"#brand",
+			"site-nav",
+			"social-links",
+			"brand",
+			"nav",
+			"search-suggest",
+			"comments",
+			"</div>",
+			"<div>",
+			"<div></div>",
+			"</div>",
+			"<div>",
+			"<div></div>",
+			"sucks",
+			"src=\"http://local.simplyrecipes.com/wp-content/uploads/",
+			"img src=\"http://local.",
+			"www.simplyrecipes.com",
+			"scroll",
+			"sticky",
+			"left",
+			"ad",
+			"widget-ad",
+			"-ad",
+			".q2w3",
+			"pinterest_des",
+			"ingredients",
+			"yum",
+			"SEO",
+			"header",
+			"browserconfig.xml",
+			"img sr",
+			"food",
+			"ziplist",
+			"wp_enqueue_script",
+			"ziplist",
+			"tools",
+			"addthis",
+			"sticky",
+			"debug",
+			"datonics",
+			"blockquote",
+			"entry",
+			"blockquote",
+			"echo",
+			"venti"
+>>>>>>> origin/master
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -114,6 +477,16 @@
 		"regex": false,
 		"replace_history":
 		[
+<<<<<<< HEAD
+			"enr--",
+			"dropdown"
+=======
+			"FunCycled on",
+			"/funcycled",
+			"src=\"http://www.simplyrecipes.com/wp-content/uploads/",
+			"img src=\"http://www.",
+			"local.simplyrecipes.com"
+>>>>>>> origin/master
 		],
 		"reverse": false,
 		"show_context": true,
@@ -124,107 +497,18 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "post.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9320,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								421,
-								421
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/css/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								304,
-								304
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "assets/css/style.min.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 6919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 40.0
 	},
 	"layout":
 	{
@@ -257,7 +541,7 @@
 	"project": "enrichmond.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -291,11 +575,11 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 231.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

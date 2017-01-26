@@ -1,0 +1,138 @@
+
+
+// CPJ color scheme
+$red: #DA2E2C;
+$charcoal: #282828;
+$charcoal-accent: #333;
+$medium-grey: #909090;
+$light-grey: #efefef;
+$white: #ffffff;
+$grey: #D4D4D4;
+
+$text-color: $charcoal;
+$text-muted: #acacac;
+$brand-primary: $red;
+
+
+// Nav collapse
+$screen-md: 900px;
+$screen-sm-min: $screen-md;
+$screen-desktop: $screen-sm-min;
+
+// Base
+$border-radius-base: 0;
+$border-radius-large: 0;
+$border-radius-small: 0;
+
+
+// Nav / Navbar
+$nav-height: 250px;
+$nav-collapsed-height: 60px;
+$navbar-height: 60px;
+$navbar-inverse-color: $red;
+$navbar-inverse-bg: $charcoal;
+$navbar-inverse-link-color: $grey;
+$navbar-inverse-link-hover-color: $charcoal;
+$navbar-inverse-link-hover-bg: $white;
+$navbar-inverse-link-active-color: $charcoal;
+$navbar-inverse-link-active-bg: $white;
+
+// Dropdowns
+$dropdown-border: transparent;
+$dropdown-link-hover-bg: $red;
+$dropdown-link-hover-color: $white;
+$dropdown-link-color: $charcoal;
+
+// Input
+$input-color-placeholder: #BBBBBB;
+$input-border: #BBBBBB;
+$input-border-active: $charcoal;
+$input-color: $charcoal;
+$input-border-radius: 0;
+$input-border-radius-large: 0;
+$input-border-radius-small: 0;
+$input-border-focus: $charcoal;
+$state-danger-text: $red;
+
+// Buttons
+$btn-font-weight: bold;
+
+$btn-default-color: $white;
+$btn-default-bg: $charcoal;
+$btn-default-border:transparent;
+
+$btn-primary-color: $white;
+$btn-primary-bg: $red;
+$btn-primary-border: transparent;
+
+$btn-on-dark-color: $red;
+$btn-on-dark-bg: $light-grey;
+$btn-on-dark-border: transparent;
+
+// Forms
+$input-height-large: 43px;
+
+// Tooltips
+$tooltip-bg: $charcoal;
+$tooltip-arrow-width: 10px;
+
+// Table
+$table-cell-padding: 8px 0;
+$table-condensed-cell-padding: 5px 0;
+$table-bg-accent: $light-grey;
+
+// Panels
+$panel-heading-padding: 10px 0;
+$panel-body-padding: 20px 0;
+$panel-bg: transparent;
+
+// Icon font
+$icon-font-size: 0.8em;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+// CPJ vars
+$font-size-article: 18px;
+$font-size-article-opening-sentence: $font-size-article * 1.25;
+
+$blockquote-font-size: 1.2em;
+$blockquote-border-color: $medium-grey;
+
+// Bootstrap overrides
+
+$link-hover-decoration: none;
+
+$font-family-sans-serif:  "Lato","Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+
+$font-size-base: 16px;
+$font-size-large: 16px;
+$font-size-small: 14px;
+
+$font-size-h1: 48px;
+$font-size-h2: 40px;
+$font-size-h3: 32px;
+$font-size-h4: 24px;
+$font-size-h5: 18px;
+$font-size-h6: $font-size-base;
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base: 1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family: inherit !default;
+$headings-font-weight: 500 !default;
+$headings-line-height: 1.1 !default;
+$headings-color: $charcoal;
+
+// Jumbotron
+// Used for: Journalist capsule,
+$jumbotron-padding: 40px;
+$jumbotron-color: inherit !default;
+$jumbotron-bg: $light-grey;
+$jumbotron-heading-color: inherit !default;
+$jumbotron-font-size: $font-size-h5;
+$jumbotron-heading-font-size: $font-size-h2;

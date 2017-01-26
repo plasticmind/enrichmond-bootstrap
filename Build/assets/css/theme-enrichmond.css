@@ -1,0 +1,65 @@
+/* = Paths */
+/* = Colors */
+/* REMOVE ME: Styles for Template Chooser */
+body {
+  padding-top: 40px; }
+
+.template-chooser {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background: #eee;
+  border-bottom: solid 1px #ccc;
+  width: 100%;
+  z-index: 999;
+  height: 40px; }
+  .template-chooser .template-chooser-header,
+  .template-chooser .template-chooser-select {
+    display: inline-block; }
+  .template-chooser .template-chooser-header {
+    padding: 8px 0 8px 8px; }
+  .template-chooser .template-chooser-select {
+    font-weight: bold;
+    padding: 8px; }
+
+/* Custom Bootstrap Theme for Enrichmond.com */
+body {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Crete Round", serif; }
+
+/* = Navbar */
+.navbar {
+  padding-top: 20px;
+  border: none;
+  box-shadow: none;
+  background-image: none;
+  border-radius: 0; }
+  .navbar li {
+    text-transform: uppercase; }
+  .navbar h1 {
+    margin: 0; }
+
+.navbar-default {
+  background-color: #fff; }
+  .navbar-default .navbar-nav > .active > a {
+    color: #2AA82E;
+    box-shadow: none;
+    background: none; }
+    .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+      color: #333; }
+  .navbar-default .navbar-brand {
+    margin: 10px;
+    display: block;
+    height: 32px;
+    width: 245px;
+    text-indent: -999em;
+    background: transparent url("/assets/img/logo.png") no-repeat top left;
+    background-size: 100% auto; }
+
+/* = Site Footer */
+.site-footer {
+  margin: 20px -15px;
+  background-color: #f00; }

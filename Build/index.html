@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Expires" CONTENT="-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https:v//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <title>Enrichmond Bootstrap Template</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.min.css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Crete+Round|Lato" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel='stylesheet' href='assets/stylesheets/styles.css'>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+  <script src='assets/js/vendor/modernizr.min.js'></script>
+  <script src='assets/js/bootstrap.min.js'></script>
+  <script src='assets/js/vendor/bootstrap-select.min.js'></script>
+  <script src='assets/js/vendor/bootstrap-toggle.min.js'></script>
+  <script src='assets/js/enrichmond.js'></script>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                window.onbeforeunload = function() { ws = null }
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link');
+                    for (var i = 0; i < links.length;i++) {
+                    var link = links[i];
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) {
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,'');
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+</head>
+
+<body>
+
+      <nav
+        class="navbar navbar-inverse cpj-nav"
+        data-spy="affix"
+        data-offset-top="190">
+
+            <div class="container">
+
+                  <div class="navbar-header">
+                    <button type="button"
+                      class="navbar-toggle collapsed"
+                      data-toggle="collapse"
+                      data-target="#navbar,html"
+                      aria-expanded="false"
+                      aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="cpj-icon-menu"></span>
+                    </button>
+                    <a class="current navbar-brand" href="index.html">Committee to Protect Journalists</a>
+
+                    <div class="dropdown cpj-nav--search">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="cpj-icon-search"></span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <div class="input-group">
+                          <input type="search" class="form-control input-lg" placeholder="Search for...">
+                          <span class="input-group-btn">
+                            <button class="btn btn-on-dark input-lg" type="button">
+                              <span class="cpj-icon-search"></span>
+                            </button>
+                          </span>
+                        </div>
+                      </ul>
+                    </div>
+
+                  </div>
+
+                  <div id="navbar" class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right cpj-nav--social">
+      								<li>
+                        <a href="http://twitter.com/pressfreedom/" class="tw" target="_blank">
+                          <span class="fa fa-twitter"></span>
+                        </a>
+                      </li>
+
+      								<li><a href="http://www.facebook.com/pages/Committee-to-Protect-Journalists/58051322414?ref=ts" class="fb" target="_blank">
+                        <span class="fa fa-facebook"></span>
+                      </a></li>
+
+      								<li><a href="http://www.youtube.com/user/cpjmultimedia" class="yt" target="_blank">
+                        <span class="fa fa-youtube-play"></span>
+                      </a></li>
+
+      								<li><a href="/about/feeds.php" class="rss">
+                        <span class="fa fa-rss"></span>
+                      </a></li>
+
+      								<li><a href="http://committeetoprotectjournalists.tumblr.com" class="tumblr" target="_blank">
+                        <span class="fa fa-tumblr"></span>
+                      </a></li>
+
+      							</ul>
+
+                    <div class="dropdown cpj-nav--languages">
+                      <a href="#" class="dropdown-toggle cpj-nav--language-choice" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span>EN</span>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li class="_english"><a href="/">English</a></li>
+                        <li class="_spanish"><a href="/es/">Español</a></li>
+                        <li class="_portuguese"><a href="/pt/">Português</a></li>
+                        <li class="_french"><a href="/fr/">Français</a></li>
+                        <li class="_russian"><a href="/ru/" class="rus">Русский</a></li>
+                        <li class="_arabic"><a href="/ar/">العربية</a></li>
+                        <li class="_turkish"><a href="/tr/">Türkçe</a></li>
+    						      </ul>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right cpj-nav--main">
+
+                      <li class="dropdown">
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">
+                          News &amp; Analysis
+                        </a>
+          							<ul class="dropdown-menu dropdown-menu-left">
+                          <li><a href="/news/">News Alerts</a></li>
+                          <li><a href="/blog/">CPJ Blog</a></li>
+                          <li><a href="/reports/">Special Reports</a></li>
+                          <li><a href="/reports/multimedia/">Multimedia</a></li>
+          							</ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">
+                          Data &amp; <span>Research</span>
+                        </a>
+          							<ul class="dropdown-menu dropdown-menu-left">
+          								<li><a href="/killed/2016/">Killed in 2016</a></li>
+          								<li><a href="/killed/">Killed since 1992</a></li>
+          								<li><a href="/imprisoned/2015.php">Imprisoned</a></li>
+          								<li><a href="/exile/">Exiled</a></li>
+          								<li><a href="/reports/2008/02/journalists-missing.php">Missing</a></li>
+          								<li><a href="/2015/04/10-most-censored-countries.php">Most Censored Countries</a></li>
+          								<li><a href="/attacks/">Attacks on the Press</a></li>
+          							</ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">Services &amp; Resources</a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+          								<li><a href="/campaigns/assistance/">Journalist Assistance</a></li>
+          								<li><a href="/reports/2012/04/journalist-security-guide.php">Journalist Security</a></li>
+          							</ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">
+                          Advocacy &amp; Action
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-left">
+          								<li><a href="/campaigns/">Advocacy Center</a></li>
+          								<li><a href="/campaigns/protecting-journalists-covering-conflict/protecting-journalists-covering-conflict.php">A Culture of Safety</a></li>
+          								<li><a href="/campaigns/impunity/">Campaign on Impunity</a></li>
+          								<li><a href="/campaigns/defamation/">Critics, Not Criminals</a></li>
+          								<li><a href="/campaigns/press-freedom-for-development/">Press Freedom for Development </a></li>
+                          <li><a href="/impact/">Impact</a></li>
+                          <li><a href="/letters/">Letters</a></li>
+          							</ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">About CPJ</a>
+                          <ul class="dropdown-menu dropdown-menu-left" role="menu" aria-labelledby="menu5">
+            								<li><a href="/about/">What We Do</a></li>
+            								<li><a href="/about/donate.php">Support CPJ</a></li>
+            								<li><a href="https://cpj20023.thankyou4caring.org" target="_blank">Donate Online</a></li>
+            								<li><a href="/events/">CPJ Events</a></li>
+            								<li><a href="/awards/">Press Freedom Awards</a></li>
+            								<li><a href="/about/email-lists.php">Subscribe to Email Lists</a></li>
+            							<li><a href="/press/">Press Center</a></li>
+            								<li><a href="/about/contact.php">Contact CPJ</a></li>
+            							</ul>
+                      </li>
+
+                      <li class="dropdown cpj-nav--countries">
+
+                        <a
+                          class="dropdown-toggle"
+                          data-toggle="dropdown"
+                          role="button"
+                          aria-haspopup="true"
+                          aria-expanded="false">
+                          Countries &amp; Regions
+                        </a>
+
+                        <ul class="dropdown-menu">
+
+                          <li class="dropdown-submenu open">
+                            <a
+                              class="dropdown-toggle"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-haspopup="true"
+                              aria-expanded="false">Americas</a>
+                              <ul class="dropdown-menu list-americas">
+                                <li><a href="/americas/">All Americas</a>
+                                <li><a href="/americas/antigua-and-barbuda/">Antigua &amp; Barbuda</a></li>
+                                <li><a href="/americas/argentina/">Argentina</a></li>
+                                <li><a href="/americas/bahamas/">Bahamas</a></li>
+                                <li><a href="/americas/belize/">Belize</a></li>
+                                <li><a href="/americas/bolivia/">Bolivia</a></li>
+                                <li><a href="/americas/brazil/">Brazil</a></li>
+                                <li><a href="/americas/canada/">Canada</a></li>
+                                <li><a href="/americas/chile/">Chile</a></li>
+                                <li><a href="/americas/colombia/">Colombia</a></li>
+                              </ul>
+                          </li>
+
+                          <li class="dropdown-submenu">
+                            <a
+                              class="dropdown-toggle"
+                              data-toggle="dropdown"
+                              role="button"
+                              aria-haspopup="true"
+                              aria-expanded="false">Europe &amp; Central America</a>
+                              <ul class="dropdown-menu list-americas">
+                                <li><a href="/europe/portugal/">Portugal</a></li>
+                                <li><a href="/europe/romania/">Romania</a></li>
+                                <li><a href="/europe/russia/">Russia</a></li>
+                                <li><a href="/europe/serbia/">Serbia</a></li>
+                                <li><a href="/europe/slovakia/">Slovakia</a></li>
+                                <li><a href="/europe/spain/">Spain</a></li>
+                                <li><a href="/europe/sweden/">Sweden</a></li>
+                                <li><a href="/europe/switzerland/">Switzerland</a></li>
+                                <li><a href="/europe/tajikistan/">Tajikistan</a></li>
+                                <li><a href="/europe/turkey/">Turkey</a></li>
+                                <li><a href="/europe/turkmenistan/">Turkmenistan</a></li>
+                                <li><a href="/europe/uk/">UK</a></li>
+                                <li><a href="/europe/ukraine/">Ukraine</a></li>
+                                <li><a href="/europe/uzbekistan/">Uzbekistan</a></li>
+                                <li><a href="/europe/yugoslavia/">Yugoslavia</a></li>
+                              </ul>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li class="cpj-nav--main--support">
+                        <div>
+                          <a href="#" target="_blank" class="btn btn-primary">
+                            Support CPJ
+                          </a>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <!-- /.nav-collapse -->
+            </div>
+            <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+
+      <div class="cpj--page-content">
+  <!-- END HEADER -->
+
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-sm-8">
+
+      <div class="enr--module enr--module--article-preview">
+        <div class="enr--module--media">
+          <img src="https://cpj.org/include/features/assets_c/2016/08/India-Cover1-TF-2-thumb-360x303-6850.jpg" alt=""/>
+        </div>
+        <div class="enr--module--header">
+          <a href="#" class="btn btn-primary btn-lg enr--module--category">Blog</a>
+        </div>
+        <div class="enr--module--content">
+          <a href="#" class="enr--module--link"></a>
+          <h4>
+            Title of mass titleness with title that has title
+            trying to be title
+          </h4>
+          <p>by <a href="#">Person Name</a> on <strong>May 4, 2016</strong></p>
+          <p class="article--preview">Not tricks, Michael, illusions. Marry me. I care deeply for nature. I've opened a door here that I regret. I've opened a door here that I regret. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor.</p>
+          <p><a href="#">Read More &rsaquo;</a></p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-sm-4">
+      <a href="#" class="enr--related-article">
+          <span class="btn btn-primary btn-sm">
+            Attacks on the Press
+          </span>
+          <h5>A year after James Foley and Steven Sotloff murders, more awareness of risks</h5>
+      </a>
+      <a href="#" class="enr--related-article">
+          <span class="btn btn-primary btn-sm">
+            Press Releases
+          </span>
+          <h5>A year after James Foley and Steven Sotloff murders, more awareness of risks</h5>
+      </a>
+      <a href="#" class="enr--related-article">
+          <span class="btn btn-primary btn-sm">
+            Attacks on the Press
+          </span>
+          <h5>A year after James Foley and Steven Sotloff murders, more awareness of risks</h5>
+      </a>
+    </div>
+  </div>
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation"><a href="#home-reports" aria-controls="home-reports" role="tab" data-toggle="tab">Reports</a></li>
+    <li role="presentation"><a href="#home-alerts" aria-controls="home-alerts" role="tab" data-toggle="tab">Alerts</a></li>
+    <li role="presentation"><a href="#home-blogposts" aria-controls="home-blogposts" role="tab" data-toggle="tab">Blogposts</a></li>
+    <li role="presentation" class="active"><a href="#home-all" aria-controls="home-all" role="tab" data-toggle="tab">All</a></li>
+    <li class="navbar-right"><a href="#" class="navbar-link">View More &rsaquo;</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active row" id="home-all">
+
+      <div class="col-sm-4">
+        <div class="enr--module enr--module--article-preview enr--module--small">
+          <img src="http://www.fillmurray.com/400/260" alt=""/>
+          <div class="enr--module--header">
+            <a href="#" class="btn btn-primary btn enr--module--category">Attacks on the Press</a>
+          </div>
+          <a class="enr--module--content" href="#">
+            <h5>
+              Title of mass titleness with title that has title
+              trying to be title
+            </h5>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="enr--module enr--module--article-preview enr--module--small">
+          <img src="http://www.fillmurray.com/800/520" alt=""/>
+          <div class="enr--module--header">
+            <a href="#" class="btn btn-primary btn enr--module--category">Alerts</a>
+          </div>
+          <a class="enr--module--content" href="#">
+            <h5>
+              Title of mass titleness with title that has title
+              trying to be title
+            </h5>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="enr--module enr--module--article-preview enr--module--small">
+          <img src="http://www.fillmurray.com/200/130" alt=""/>
+          <div class="enr--module--header">
+            <a href="#" class="btn btn-primary btn enr--module--category">Blog</a>
+          </div>
+          <a class="enr--module--content" href="#">
+            <h5>
+              Title of mass titleness with title that has title
+              trying to be title
+            </h5>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div role="tabpanel" class="tab-pane row" id="home-reports">
+      <div class="col-sm-4">Reports here...</div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane row" id="home-alerts">
+      <div class="col-sm-4">Alerts here...</div>
+    </div>
+
+    <div role="tabpanel" class="tab-pane row" id="home-blogposts">
+      <div class="col-sm-4">Blogposts here...</div>
+    </div>
+  </div>
+
+  <div class="enr--horizontal-rule"></div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" class="h2" aria-controls="home" role="tab" data-toggle="tab">Datas &amp; Research</a></li>
+    <li role="presentation"><a href="#profile" class="h2" aria-controls="profile" role="tab" data-toggle="tab">Map</a></li>
+    <li class="navbar-text navbar-right"><a href="#" class="navbar-link">View All &rsaquo;</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+      <div class="row enr--data-headers">
+        <div class="col-sm-4">
+          <h3 class="inline">
+            25
+          </h3>
+          <strong>journalists killed in 2016</strong>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="inline">
+            456
+          </h3>
+          <strong>imprisoned in 2015</strong>
+        </div>
+        <div class="col-sm-4">
+          <h3 class="inline">
+            199
+          </h3>
+          <strong>exiled since 2008</strong>
+        </div>
+      </div>
+      <br>
+
+      <p>
+        Stuff from tab 1, with some text and a <a href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</a>.
+      </p>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+      <p>Stuff from tab 2</p>
+    </div>
+  </div>
+
+
+
+</div><!-- /.container -->
+
+<div class="enr--headshots">
+
+  <div class="container">
+    <h3>
+      Featured Journalists
+    </h3>
+
+    <div class="row">
+      <div class="col-sm-8">
+        <p>Not tricks, Michael, illusions. Marry me. I care deeply for nature. I've opened a door here that I regret. I've opened a door here that I regret. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="col-sm-6">
+          <a href="#">Terminology &rsaquo;</a>
+        </div>
+        <div class="col-sm-6">
+          <a href="#">View All &rsaquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="enr--headshots--list">
+    <a href="#" class="enr--headshot">
+      <figure>
+        <div class="enr--headshot--photo">
+          <img src="http://www.fillmurray.com/290/320">
+        </div>
+        <figcaption>
+          <h5>Journalist Name</h5>
+          Japan Press <br>
+          Syria
+        </figcaption>
+      </figure>
+    </a>
+    <a href="#" class="enr--headshot">
+      <figure>
+        <div class="enr--headshot--photo">
+          <img src="http://www.fillmurray.com/300/320">
+        </div>
+        <figcaption>
+          <h5>Journalist Name</h5>
+          Japan Press <br>
+          Syria
+        </figcaption>
+      </figure>
+    </a>
+    <a href="#" class="enr--headshot">
+      <figure>
+        <div class="enr--headshot--photo">
+          <img src="http://www.fillmurray.com/320/320">
+        </div>
+        <figcaption>
+          <h5>Journalist Name</h5>
+          Freelance <br>
+          Lebanon
+        </figcaption>
+      </figure>
+    </a>
+    <a href="#" class="enr--headshot">
+      <figure>
+        <div class="enr--headshot--photo">
+          <img src="http://www.fillmurray.com/180/220">
+        </div>
+        <figcaption>
+          <h5>Journalist Name</h5>
+          The Sunday Times<br>
+          Syria
+        </figcaption>
+      </figure>
+    </a>
+    <a href="#" class="enr--headshot">
+      <figure>
+        <div class="enr--headshot--photo">
+          <img src="http://www.fillmurray.com/200/320">
+        </div>
+        <figcaption>
+          <h5>Journalist Name</h5>
+          Images Live <br>
+          Syria
+        </figcaption>
+      </figure>
+    </a>
+  </div>
+
+</div>
+
+<section class="enr--horizontal-section enr--flex-grid">
+
+  <div class="col-sm-8 enr--module enr--module--advocacy enr--subdued--photo">
+    <div class="enr--module--header">
+      <h3>
+        Advocacy &amp; Action
+      </h3>
+      <a href="#" class="btn btn-primary enr--module--category">Letters</a>
+    </div>
+    <h4>
+      Title of mass titleness with title that has title
+      trying to be title
+    </h4>
+    <p>by <a href="#">Person Name</a> on <strong>May 4, 2016</strong></p>
+    <p class="article--preview">Not tricks, Michael, illusions. Marry me. I care deeply for nature. I've opened a door here that I regret. I've opened a door here that I regret. There's only one man I've ever called a coward, and that's Brian Doyle Murray. No, what I'm calling you is a television actor.</p>
+    <p><a href="#">Read More &rsaquo;</a></p>
+  </div>
+
+  <div class="col-sm-4 enr--focus">
+    <ul class="enr--links">
+      <li>
+        <a href="#">Security &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Emergency &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Emergency Network &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Journalist Safety &rsaquo;</a>
+      </li>
+    </ul>
+    <ul class="enr--links">
+      <li>
+        <a href="#">Press Uncufffed &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Campaign on Impunity &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Digital Freedom &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">CPJ Impact &rsaquo;</a>
+      </li>
+      <li>
+        <a href="#">Press Center &rsaquo;</a>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+
+<section class="enr--horizontal-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-sm-8">
+
+        <h3 class="inline">
+          Multimedia
+        </h3>
+        <a href="#">View All &rsaquo;</a>
+
+
+      </div>
+      <div class="col-sm-4">
+        <h3 class="inline">
+          Events
+        </h3>
+        <a href="#">View All &rsaquo;</a>
+        <ul class="cpj--event-list">
+  <li>
+    <strong>
+      July 22, 2016
+    </strong>
+    <h5>
+      CPJ staff technologist speaks at the HOPE conference
+    </h5>
+    <a href="#" class="small">Read More &rsaquo;</a>
+  </li>
+  <li>
+    <strong>
+      July 20, 2016
+    </strong>
+    <h5>
+      Another great title for an article
+    </h5>
+    <a href="#" class="small">Campaign on Impunity &rsaquo;</a>
+  </li>
+  <li>
+    <strong>
+      July 20, 2016
+    </strong>
+    <h5>
+      Yet even another title for a different thing that
+      is great and amazing
+    </h5>
+    <a href="#" class="small">Digital Freedom &rsaquo;</a>
+  </li>
+  <li>
+    <strong>
+      August 20, 2016
+    </strong>
+    <h5>
+      Yet even another title for a different thing
+    </h5>
+    <a href="#" class="small">CPJ Impact &rsaquo;</a>
+  </li>
+
+</ul>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="enr--horizontal-section">
+  <div class="container">
+    <h3 class="inline">
+      Data &amp; Research
+    </h3>
+    <a href="#">View All &rsaquo;</a>
+
+    <div class="row enr--module-grid">
+      <div class="col-sm-4">
+        
+      </div>
+      <div class="col-sm-4">
+        
+      </div>
+      <div class="col-sm-4">
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+      <!-- START FOOTER -->
+
+    </div>
+
+</body>
+</html>
