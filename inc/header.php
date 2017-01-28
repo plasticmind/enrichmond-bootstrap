@@ -37,7 +37,7 @@ isset($page_slug) || $page_slug = '';
     <![endif]-->
   </head>
 
-  <body class="page-with-hero">
+  <body class="<?php echo $page_slug;?>">
 
     <!-- Top Nav
     ================================================== -->  
@@ -81,14 +81,3 @@ isset($page_slug) || $page_slug = '';
       </div>
     </nav>
 
-    <div class="page-hero">
-      <div class="container-fluid">
-        <img src="http://www.unsplash.it/2000/1300/">        
-      </div>
-    </div>
-
-
-    <div class="page-content">
-      
-      <div class="page-header">
-        <div class="container">

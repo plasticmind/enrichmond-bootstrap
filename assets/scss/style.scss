@@ -5,8 +5,19 @@
 @import "bootstrap-toggle.min.css";
 // @import "enrichmond-bootstrap";
 
+// Global Styles
+
 body {
 	padding-top: 70px;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: $font-family-sans-serif;
+	font-weight: bold;
+}
+.alignright {
+	float: right;
+	margin: ($padding-base-vertical*2) ($padding-base-horizontal*2);
 }
 
 // Nav Bar
@@ -98,6 +109,47 @@ body {
 	}
 }
 
+/* Individual Entry */
+
+
+.entry-sidebar {
+	padding-top: 20px;
+}
+
+.entry-sidebar-title {
+	text-transform: uppercase;
+	color: $gray-light;
+}
+
+/* Cards */
+
+.card {
+	display: inline-block;
+	max-width: 300px;
+	font-size: 15px;
+	background: #fff;
+	border: solid 1px lighten($gray-base,80%);
+	a {
+		color: $gray;
+		&:hover {
+			color: $gray-base;
+		}
+	}
+	margin-bottom: $padding-base-vertical*4;
+}
+.card-image img {
+	max-width: 100%;
+}
+.card-title {
+	text-align: center;
+	font-family: $font-family-serif;
+	color: $gray;
+	padding: $padding-base-vertical $padding-base-horizontal $padding-base-vertical+3;
+	p {
+		margin: 0;
+	}
+}
+
 /* Site Footer */
 
 .page-footer {
@@ -128,9 +180,10 @@ body {
 		}
 	}
 	.navbar-social {
+		padding-left: 5px;
 		a {
 			font-size: 20px;
-			padding-top:4px;
+			padding:4px 12px;
 			&:hover {
 				background: transparent;
 			}
@@ -141,10 +194,25 @@ body {
 	}
 }
 
+/* MISC */
+
+.style-guide {
+	text-align: center;
+	font: 16px Monaco,monospace;
+	color: $gray-light;
+	padding-bottom: 12px;
+}
+
 
 /* Responsive Breakpoints */
 
 @media (min-width:$screen-sm) {
+
+	.entry-sidebar {
+		background: #fcf9ef;
+		padding: 10px 20px;
+	}
+
 	.page-footer .richmond-badge {
 		float: right;
 	}

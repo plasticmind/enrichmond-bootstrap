@@ -1209,22 +1209,22 @@ h6, .h6 {
     font-size: 75%; }
 
 h1, .h1 {
-  font-size: 44px; }
+  font-size: 42px; }
 
 h2, .h2 {
-  font-size: 36px; }
-
-h3, .h3 {
   font-size: 29px; }
 
-h4, .h4 {
+h3, .h3 {
   font-size: 22px; }
 
-h5, .h5 {
+h4, .h4 {
   font-size: 17px; }
 
-h6, .h6 {
+h5, .h5 {
   font-size: 15px; }
+
+h6, .h6 {
+  font-size: 12px; }
 
 p {
   margin: 0 0 12px; }
@@ -5800,6 +5800,14 @@ button.close {
 body {
   padding-top: 70px; }
 
+h2, h3, h4, h5, h6 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold; }
+
+.alignright {
+  float: right;
+  margin: 12px 24px; }
+
 .navbar-fixed-top {
   border-bottom: solid 1px #eeedec; }
   .navbar-fixed-top .navbar-collapse {
@@ -5866,6 +5874,38 @@ body {
     top: 50%;
     transform: translate(-50%, -50%); }
 
+/* Individual Entry */
+.entry-sidebar {
+  padding-top: 20px; }
+
+.entry-sidebar-title {
+  text-transform: uppercase;
+  color: #9b9895; }
+
+/* Cards */
+.card {
+  display: inline-block;
+  max-width: 300px;
+  font-size: 15px;
+  background: #fff;
+  border: solid 1px #eeedec;
+  margin-bottom: 24px; }
+  .card a {
+    color: #7a7673; }
+    .card a:hover {
+      color: #222120; }
+
+.card-image img {
+  max-width: 100%; }
+
+.card-title {
+  text-align: center;
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
+  color: #7a7673;
+  padding: 6px 12px 9px; }
+  .card-title p {
+    margin: 0; }
+
 /* Site Footer */
 .page-footer {
   font-size: 15px; }
@@ -5887,16 +5927,29 @@ body {
     transition: 0.5s; }
     .page-footer .richmond-badge:hover, .page-footer .richmond-badge.hover {
       transform: rotateY(360deg); }
-  .page-footer .navbar-social a {
-    font-size: 20px;
-    padding-top: 4px; }
-    .page-footer .navbar-social a:hover {
-      background: transparent; }
-  .page-footer .navbar-social li {
-    display: inline-block; }
+  .page-footer .navbar-social {
+    padding-left: 5px; }
+    .page-footer .navbar-social a {
+      font-size: 20px;
+      padding: 4px 12px; }
+      .page-footer .navbar-social a:hover {
+        background: transparent; }
+    .page-footer .navbar-social li {
+      display: inline-block; }
+
+/* MISC */
+.style-guide {
+  text-align: center;
+  font: 16px Monaco,monospace;
+  color: #9b9895;
+  padding-bottom: 12px; }
 
 /* Responsive Breakpoints */
 @media (min-width: 768px) {
+  .entry-sidebar {
+    background: #fcf9ef;
+    padding: 10px 20px; }
+
   .page-footer .richmond-badge {
     float: right; } }
 @media (max-width: 768px) {
