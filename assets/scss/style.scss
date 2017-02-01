@@ -81,7 +81,7 @@ h2,h3,h4,h5,h6 {
 }
 .page-hero ~ .page-content .container {
 	//top: -9.5em;
-	top: -15vw;
+	top: -40vh;
 	position: relative;
 }
 .page-hero {
@@ -119,6 +119,14 @@ h2,h3,h4,h5,h6 {
 .entry-sidebar-title {
 	text-transform: uppercase;
 	color: $gray-light;
+}
+
+/* Individual Partner */
+.partner-map {
+	margin: 2em 0;
+}
+.gmap {
+	height: 250px;
 }
 
 /* Cards */

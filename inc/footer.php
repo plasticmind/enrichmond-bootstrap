@@ -83,5 +83,7 @@
   <script src="/assets/js/bootstrap.min.js"></script>
   <script src="/assets/js/tools.js"></script>
 
+  <?php echo $footer_inject; ?>
+
 </body>
 </html>
