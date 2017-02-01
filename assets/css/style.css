@@ -5834,6 +5834,10 @@ h2, h3, h4, h5, h6 {
   float: right;
   margin: 12px 24px; }
 
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
 .navbar-fixed-top {
   border-bottom: solid 1px #eeedec; }
   .navbar-fixed-top .navbar-collapse {
@@ -5867,12 +5871,10 @@ h2, h3, h4, h5, h6 {
     content: "\e014"; }
 
 .page-header {
-  margin: 0;
-  padding: 0;
+  margin: 36px 0 0;
   border: 0; }
 
 .page-content .container {
-  padding: 10px 40px;
   background: #fff;
   border: 0; }
 
@@ -5902,13 +5904,29 @@ h2, h3, h4, h5, h6 {
 
 /* Individual Entry */
 .entry-sidebar {
-  padding-top: 20px; }
+  padding: 0;
+  margin: 0; }
 
-.entry-sidebar-title {
-  text-transform: uppercase;
-  color: #9b9895; }
+.widget {
+  margin-bottom: 20px; }
+
+.widget-donate {
+  padding: 10px 20px;
+  background-color: #575451; }
+  .widget-donate .widget-title {
+    color: #fff; }
+  .widget-donate button:active,
+  .widget-donate button:focus {
+    background-color: #72b24d; }
+  .widget-donate input, .widget-donate button {
+    width: 70px;
+    margin: 0 4px 12px; }
 
 /* Individual Partner */
+.partner-description {
+  font-size: 120%;
+  color: #7a7673; }
+
 .partner-map {
   margin: 2em 0; }
 
@@ -5939,6 +5957,27 @@ h2, h3, h4, h5, h6 {
   .card-title p {
     margin: 0; }
 
+.media {
+  display: inline-block;
+  background-color: #fff;
+  border: solid 1px #eeedec;
+  overflow: hidden;
+  padding: 10px 10px 3px 10px;
+  max-width: 300px; }
+
+.media a {
+  color: #9b9895; }
+  .media a:hover {
+    text-decoration: none; }
+
+.media-heading {
+  font-family: "Crete Round", Georgia, "Times New Roman", Times, serif;
+  font-weight: normal; }
+
+.media-details {
+  margin-bottom: 0;
+  font-size: 12px; }
+
 /* Site Footer */
 .page-footer {
   font-size: 15px; }
@@ -5956,10 +5995,6 @@ h2, h3, h4, h5, h6 {
   .page-footer .note,
   .page-footer .contact {
     padding-bottom: 12px; }
-  .page-footer .richmond-badge {
-    transition: 0.5s; }
-    .page-footer .richmond-badge:hover, .page-footer .richmond-badge.hover {
-      transform: rotateY(360deg); }
   .page-footer .navbar-social {
     padding-left: 5px; }
     .page-footer .navbar-social a {
@@ -5979,9 +6014,28 @@ h2, h3, h4, h5, h6 {
 
 /* Responsive Breakpoints */
 @media (min-width: 768px) {
+  .page-content {
+    padding-right: 20px; }
+    .page-content .container {
+      padding: 0;
+      padding: 0 0 20px 20px; }
+  .widget {
+    padding: 20px;
+    margin-bottom: 0; }
+  .widget-donate {
+    position: relative; }
+    .widget-donate:before {
+      position: absolute;
+      left: -16px;
+      top: 40%;
+      content: "";
+      height: 0;
+      width: 0;
+      border-top: 18px solid transparent;
+      border-right: 16px solid #575451;
+      border-bottom: 18px solid transparent; }
   .entry-sidebar {
-    background: #fcf9ef;
-    padding: 10px 20px; }
+    background: #fcf9ef; }
   .page-footer .richmond-badge {
     float: right; } }
 

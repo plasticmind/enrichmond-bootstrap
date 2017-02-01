@@ -19,6 +19,10 @@ h2,h3,h4,h5,h6 {
 	float: right;
 	margin: ($padding-base-vertical*2) ($padding-base-horizontal*2);
 }
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
 
 // Nav Bar
 
@@ -70,12 +74,10 @@ h2,h3,h4,h5,h6 {
 // Page Content
 
 .page-header {
-	margin: 0;
-	padding: 0;
+	margin: 36px 0 0;
 	border: 0;
 }
 .page-content .container {
-	padding: 10px 40px;
 	background: #fff;
 	border: 0;
 }
@@ -111,17 +113,38 @@ h2,h3,h4,h5,h6 {
 
 /* Individual Entry */
 
-
 .entry-sidebar {
-	padding-top: 20px;
+	padding: 0;
+	margin: 0;
+}
+.widget {
+	margin-bottom: 20px;
+}
+.widget-donate {
+	padding: 10px 20px;
+	background-color: $gray-dark;
+	.widget-title {
+		color: #fff;
+	}
+	button:active,
+	button:focus {
+		background-color: $brand-success;
+	}
+	input,button {
+		width: 70px;
+		margin: 0 4px 12px;
+	}
+	input {
+		
+	}
 }
 
-.entry-sidebar-title {
-	text-transform: uppercase;
-	color: $gray-light;
-}
 
 /* Individual Partner */
+.partner-description {
+	font-size: 120%;
+	color: $gray;
+}
 .partner-map {
 	margin: 2em 0;
 }
@@ -158,6 +181,29 @@ h2,h3,h4,h5,h6 {
 	}
 }
 
+.media {
+	display: inline-block;
+	background-color: #fff;
+	border: solid 1px lighten($gray-base,80%);
+	overflow: hidden;
+	padding: 10px 10px 3px 10px;
+	max-width: 300px;
+}
+.media a {
+	color: $gray-light;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.media-heading {
+	font-family: $font-family-serif;
+	font-weight: normal;
+}
+.media-details {
+	margin-bottom: 0;
+	font-size: 12px;
+}
+
 /* Site Footer */
 
 .page-footer {
@@ -180,12 +226,6 @@ h2,h3,h4,h5,h6 {
 	.note,
 	.contact {
 		padding-bottom: 12px;
-	}
-	.richmond-badge {
-		transition: 0.5s;
-		&:hover, &.hover {
-			transform: rotateY(360deg);
-		}
 	}
 	.navbar-social {
 		padding-left: 5px;
@@ -215,10 +255,33 @@ h2,h3,h4,h5,h6 {
 /* Responsive Breakpoints */
 
 @media (min-width:$screen-sm) {
-
+	.page-content {
+		padding-right: 20px;
+		.container {
+			padding: 0;
+			padding: 0 0 20px 20px;
+		}
+	}
+	.widget {
+		padding: 20px;
+		margin-bottom: 0;
+	}
+	.widget-donate {
+		position: relative;
+		&:before {
+			position: absolute;
+			left: -16px;
+			top: 40%;
+			content: "";
+			height: 0;
+			width: 0;
+			border-top: 18px solid transparent;
+		  	border-right: 16px solid $gray-dark;
+			border-bottom: 18px solid transparent;
+		}
+	}
 	.entry-sidebar {
 		background: #fcf9ef;
-		padding: 10px 20px;
 	}
 
 	.page-footer .richmond-badge {
