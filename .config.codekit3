@@ -3851,6 +3851,12 @@
 		"oA": 2,
 		"oAP": "\/partner.php",
 		"oF": 0
+		},
+	"\/partners.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/partners.php",
+		"oF": 0
 		}
 	},
 "hooks": [

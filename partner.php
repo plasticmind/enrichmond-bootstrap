@@ -21,7 +21,7 @@ include('inc/header.php');
           <div class="col-sm-9 ">
 
             <div class="page-header">
-              <h1>17th Street Farmers Market</h1>
+              <h1>Individual Partner Page</h1>
             </div>
 
             <div class="page-content">

@@ -5962,8 +5962,7 @@ h2, h3, h4, h5, h6 {
   background-color: #fff;
   border: solid 1px #eeedec;
   overflow: hidden;
-  padding: 10px 10px 3px 10px;
-  max-width: 300px; }
+  padding: 10px 10px 3px 10px; }
 
 .media a {
   color: #9b9895; }

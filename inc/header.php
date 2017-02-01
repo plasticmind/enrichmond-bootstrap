@@ -53,7 +53,7 @@ isset($page_slug) || $page_slug = '';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Enrichmond</a>
+          <a class="navbar-brand" href="/">Enrichmond</a>
         </div>
 
         <!-- Search form -->
@@ -70,8 +70,8 @@ isset($page_slug) || $page_slug = '';
         <div class="collapse navbar-collapse" id="main-nav">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">About</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="partners.php">Partners</a></li>
+            <li><a href="events.php">Events</a></li>
             <li><a href="#">Volunteer</a></li>
             <li><a href="#">Contact</a></li>
             <li class="active"><a href="#">Donate <span class="sr-only">(current)</span></a></li>
