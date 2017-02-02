@@ -37,7 +37,7 @@ isset($page_slug) || $page_slug = '';
     <![endif]-->
   </head>
 
-  <body class="<?php echo $page_slug;?><?php if($with_hero) echo ' with-hero'; ?><?php if($with_sidebar) echo ' with-sidebar'; ?>">
+  <body class="<?php echo $page_slug;?><?php if($hero_image) echo ' with-hero'; ?><?php if($with_sidebar) echo ' with-sidebar'; ?>">
 
     <!-- Top Nav
     ================================================== -->  
@@ -81,14 +81,10 @@ isset($page_slug) || $page_slug = '';
       </div>
     </nav>
 
-    <?php if($with_hero===true): ?>
+    <?php if($hero_image): ?>
     <div class="page-hero">
       <div class="container-fluid">
-        <?php if($hero_size==='short'): ?>
-          <img src="http://www.unsplash.it/2000/500/">
-        <?php else: ?>
-          <img src="http://www.unsplash.it/2000/1000/">
-        <?php endif; ?>
+          <img src="<?php echo $hero_image; ?>">
       </div>
     </div>
     <?php endif; ?>

@@ -2,13 +2,12 @@
 
 $page_title = "Individual Partner";
 $page_slug = "single-partner";
-$with_hero = true;
+$hero_image = 'http://www.unsplash.it/2000/1000/';
 $with_sidebar = true;
 include('inc/header.php');
 
 ?>
 
-    <div class="page-content">
     
       <div class="row-fluid">
         <div class="col-sm-9 ">
@@ -99,7 +98,7 @@ include('inc/header.php');
 
         </div>
       </div>
-    </div>
+
 
 
 <?php 

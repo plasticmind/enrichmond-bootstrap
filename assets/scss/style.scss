@@ -24,6 +24,18 @@ h2,h3,h4,h5,h6 {
     padding-left:0;
 }
 
+// REMOVE ME
+
+.bs-docs-section {
+	margin-bottom: $grid-gutter-width;
+	padding-bottom: $grid-gutter-width;
+	border-top: solid 1px lighten($gray-base,80%);
+	.disabled a {
+		color: lighten($gray-base,75%);
+		cursor: not-allowed;
+	}
+}
+
 // Nav Bar
 
 .navbar-fixed-top {
@@ -74,13 +86,13 @@ h2,h3,h4,h5,h6 {
 // Page Content
 
 .page-header {
-	margin: 36px 0 0;
+	margin: ($grid-gutter-width*2) 0 0;
 	border: 0;
 }
 .page-content .container {
 	background: #fff;
 	border: 0;
-	padding: 0 $grid-gutter-width;
+	padding: 0 ($grid-gutter-width*2) ($grid-gutter-width*2);
 }
 .with-hero .page-content > .container {
 	//top: -9.5em;
